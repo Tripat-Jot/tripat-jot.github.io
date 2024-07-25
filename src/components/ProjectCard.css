@@ -1,0 +1,151 @@
+/* .project-card {
+    background-color: grey;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .project-image {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .project-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .project-description {
+    font-size: 1rem;
+    color: #555555;
+    margin-bottom: 10px;
+  }
+  
+  .project-links {
+    display: flex;
+  }
+  
+  .project-link {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: 500;
+    margin-right: 10px;
+  }
+  
+  .project-link:hover {
+    text-decoration: underline;
+  }
+  
+ */
+
+
+  .project-card {
+    background-color: darkgray;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .project-image {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .project-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .project-description {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .project-links {
+    display: block;
+  }
+  
+  .project-link {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: 500;
+    margin-right: 10px;
+    transition: text-decoration 0.3s;
+  }
+  
+  .project-link:hover {
+    text-decoration: underline;
+  }
+  
+
+
+
+  body {
+    background-color: #f4f4f9;
+    font-family: Arial, sans-serif;
+  }
+  
+  .project-card {
+    background-color: darkgray;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-50px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .project-image {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    transition: opacity 0.3s;
+  }
+  
+  .project-image:hover {
+    opacity: 0.9;
+  }
+  
+  .project-title {
+    font-size: 1.75rem;
+    margin-bottom: 15px;
+    color: #333;
+    text-align: center;
+  }
+  
+  .project-description {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 15px;
+    line-height: 1.6;
+    text-align: center;
+  }
+  
+  .project-links {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .project-link {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: 500;
+    margin: 0 10px;
+    transition: color 0.3s, text-decoration 0.3s;
+  }
+  
+  .project-link:hover {
+    color: #0056b3;
+    text-decoration: underline;
+  }
+  

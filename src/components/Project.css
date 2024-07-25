@@ -1,0 +1,41 @@
+#projects {
+  background-color: #282c34;
+  font-family: "serif";
+  padding: 4rem 2rem;
+  text-align: center;
+  height: 100vh;
+}
+
+
+.project-list {
+  overflow-x: auto; 
+  white-space: nowrap; 
+  padding: 20px 0;
+}
+
+.project-scroll {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px; 
+  width: calc(100% - 40px); 
+  padding: 10px 0;
+}
+
+.project-scroll > * {
+  flex: 0 0 calc(33.33% - 20px); 
+  max-width: calc(33.33% - 20px); 
+  box-shadow: 0 0 100px rgba(0, 0, 0, 0.1); 
+  border-radius: 8px; 
+  overflow: hidden; 
+}
+
+.project-scroll > * img {
+  width: 100%; 
+  height: auto; 
+  object-fit: cover; 
+  opacity: 1;
+}
+
+.project-scroll::-webkit-scrollbar {
+  display: none; 
+}

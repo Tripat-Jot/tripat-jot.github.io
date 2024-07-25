@@ -1,0 +1,42 @@
+  .about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    background-color: #282c34;
+    height: 100vh;
+  }
+  
+  .about-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .about-text {
+    max-width: 600px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .about-text h2 {
+    font-size: 48px; /* Make the text larger */
+    color: #333;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add a text shadow effect */
+    margin-bottom: 20px;
+  }
+  
+  .about-text p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  .about-image img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; /* Make the image round */
+    box-shadow: 0 0 10px rgba(19, 126, 73, 0.1);
+  }
+  

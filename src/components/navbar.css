@@ -1,0 +1,95 @@
+/* Navbar.css */
+/* nav {
+    background-color: #282c34;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    justify-content: space-around;
+  }
+  
+  nav ul li {
+    margin: 0 1rem;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #ff6347;
+  } */
+
+
+
+  /* Ensure the navbar is hidden initially */
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #282c34;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transform: translateY(-100%);
+  transition: transform 0.3s ease-in-out;
+  z-index: 1000;
+}
+
+/* Hover area for navbar */
+.hover-area {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  background-color: transparent;
+  z-index: 999;
+}
+
+/* Show navbar when hover area is hovered */
+.hover-area:hover + nav,
+nav:hover {
+  transform: translateY(0);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 60px;
+}
+
+li {
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color:  #ff6347;
+}
+
+.avatar {
+  height: 40px;
+  width: 40px;
+}
